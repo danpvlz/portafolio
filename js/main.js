@@ -173,7 +173,7 @@ function cards(tipo) {
                 project_clicked.imggallery.map((src,index)=>{
                 document.querySelector('.carousel-inner').innerHTML +=`
                     <div class="carousel-item ${index==0 ? "active" : ""}">
-                        <img src="${src}" class="carousel-img" style="object-fit: contain" alt="${src}">
+                        <img src="${src}" class="w-100 carousel-img" style="object-fit: contain" alt="${src}">
                     </div>`;
                 document.querySelector('.carousel-indicators').innerHTML +=
                     `<li data-target="#carousel" data-slide-to="${index}"  ${index==0 ? "class='active'" : ""}></li>`;
