@@ -134,6 +134,16 @@ let data = [
         `,
         imggallery: ["img/movil/productos_agregar_editar/inicio.gif","img/movil/productos_agregar_editar/sesion.jpg","img/movil/productos_agregar_editar/app_bar.jpg","img/movil/productos_agregar_editar/lista.jpg","img/movil/productos_agregar_editar/pedido.jpg"],
         tags: ["Web services","Android","Java","PHP","JSON Web Token"],
+    },
+    {
+        id: "9",
+        titulo: "Gestión de horarios",
+        tipo: "_3",
+        imgportada: "img/escritorio/horario_docentes/gestion_horario.png",
+        description: `Aplicacion de escritorio para la gestión de docentes y gestión de horario de docentes en distintos años académicos.
+        Esta aplicación fue desarrollada con Java y base de datos en Postgresql. Permite la generación de reportes con jasperReports`,
+        imggallery: ["img/escritorio/horario_docentes/gestion_docente.png","img/escritorio/horario_docentes/busqueda.png","img/escritorio/horario_docentes/horario_docente.png","img/escritorio/horario_docentes/imprimir_horario.png",,"img/escritorio/horario_docentes/gestion_horario.png",,"img/escritorio/horario_docentes/asignacion_cursos.png",,"img/escritorio/horario_docentes/horario_grado.png"],
+        tags: ["Java","Postgresql","JasperReports"],
     }
 ];
 
@@ -180,7 +190,7 @@ function cards(tipo) {
                 });
 
                 document.querySelector('.tags-detalle').innerHTML = project_clicked.tags.map(tag=>
-               `<span class="badge badge-pill badge-primary mb-1">${tag}</span>`
+               `<span class="badge badge-pill badge-primary mb-1">${tag}</span> `
                 ).join("");
                 $('#more_info').modal('toggle');
             }
