@@ -1,0 +1,8 @@
+Sistema de escritorio para un almacén con uso de método UEPS (último en entrar, primero en salir) desarrollado con C# y base de datos en SQL.
+El sistema incluye los módulos: 
+-Productos (gestión de productos).
+-Almacén (listado de productos en almacén)
+-Movimientos (registro de entradas y salidas de productos)
+-Utilidad bruta (Ventas y utilidades)
+-Otros gastos (registro de otros  ingresos y egresos)
+-Utilidades y pérdidas 

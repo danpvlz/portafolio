@@ -1,0 +1,4 @@
+Sistema responsive de asistencia vehicular con base de datos en MySql. Frontend desarrollado con React y backend con Node.js
+El sistema incluye:
+-Vistas cliente: Registro de incidencias vehiculares.
+-Vistas admin: Gestión de usuarios, distritos, fallas vehiculares y solicitudes de auxilio.

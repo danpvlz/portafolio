@@ -1,0 +1,6 @@
+App híbrida con firebase y notificaciones android con firebase Cloud Messaging. 
+Firebase Authentication para el inicio de sesión
+Firebase Realtime Database para el registro de productos.
+Compilada dentro de un contenedor en android.
+
+Firebase, NoSql, JSON, HTML, PHP

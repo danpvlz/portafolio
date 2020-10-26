@@ -1,0 +1,1 @@
+Web para ofrecer servicios de tutor o solicitarlos. Realizado con tecnologías php, html, jquery y javascript con base de datos en MySql. Validaciones con captcha para registro e inicio de sesión. Este sistema permite a los usuarios registrar peticiones para tutores o publicaciones para ofrecer servicios de tutor. 

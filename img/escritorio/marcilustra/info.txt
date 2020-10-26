@@ -1,0 +1,6 @@
+Sistema de escritorio desarrollado con VB.NET con base de datos en SQL y uso de CrystalReport para el reporte de ventas. 
+Incluye los módulos: 
+-Usuarios (gestión de usuarios)
+-Mantenimiento (gestión de vendedores, categorías y producto).
+-Ventas (gestión de clientes, registro de ventas y consulta de historial de ventas con sus respectivos detalles)
+-Reporte (reportes de ventas)
