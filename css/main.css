@@ -1,5 +1,6 @@
 .background {
     position: fixed;
+    display: block;
     z-index: -2;
     background-image: url('../img/fondo.png');
     width: 120%;
