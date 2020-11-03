@@ -1,3 +1,6 @@
+$( document ).ready(function() {
+    inicio();
+});
 function inicio(){
     document.querySelector('body').style.overflow="hidden";
     var landing = document.querySelector('#landing');
